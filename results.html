@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Mystyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="result">
+      <div class="leftbar">
+        <a href="index.html" style="text-decoration: none; color: white;">
+        <div class="Dashboard">
+         <i class="fa-solid fa-house"></i>
+          <h1>Dashboard</h1>
+        </div>
+        </a>
+        <a href="subjects.html" style="text-decoration: none; color: white;">
+        <div class="Dashboard">
+          <i class="fa-regular fa-file"></i>
+          <h1>Subjects</h1>
+        </div>
+        </a>
+        <a href="results.html" style="text-decoration: none; color: white;">
+        <div class="Dashboard">
+          <i class="fa-solid fa-square-poll-horizontal"></i>
+          <h1>Results</h1>
+        </div>
+        </a>
+      </div>
+
+      <div class="result-wrapper">
+        <!-- HEADER -->
+        <div class="result-head">
+          <span>Term</span>
+          <span>Grade Points</span>
+          <span>Cumulative GP</span>
+          <span>Attempted CH</span>
+          <span>Earned CH</span>
+          <span>Cumulative CH</span>
+          <span>SGPA</span>
+          <span>CGPA</span>
+        </div>
+
+        <!-- FALL ROW -->
+        <div class="term-row" onclick="toggleTerm(this)">
+          <span>▼ Fall 2024</span>
+          <span>51.34</span>
+          <span>51.34</span>
+          <span>15</span>
+          <span>15</span>
+          <span>15</span>
+          <span>3.42</span>
+          <span>3.42</span>
+        </div>
+
+        <!-- FALL DETAILS -->
+        <div class="term-details">
+          <div class="course-head">
+            <span>Course</span>
+            <span>Credit Hours</span>
+            <span>Grade Pts</span>
+            <span>Final Grade</span>
+          </div>
+
+          <div class="course-row">
+            <span>Basic Electronics - Lab</span>
+            <span>1</span>
+            <span>3.33</span>
+            <span>B+</span>
+          </div>
+
+          <div class="course-row">
+            <span>Functional English</span>
+            <span>3</span>
+            <span>6.99</span>
+            <span>C+</span>
+          </div>
+
+          <div class="course-row">
+            <span>Ideology & Constitution of Pakistan</span>
+            <span>2</span>
+            <span>8</span>
+            <span>A</span>
+          </div>
+
+          <div class="course-row">
+            <span>Basic Electronics </span>
+            <span>2</span>
+            <span>8</span>
+            <span>A</span>
+          </div>
+
+          <div class="course-row">
+            <span>Discrete Structures</span>
+            <span>3</span>
+            <span>11.01</span>
+            <span>A-</span>
+          </div>
+
+          <div class="course-row">
+            <span>Introduction to Computing - Lab</span>
+            <span>1</span>
+            <span>3</span>
+            <span>B</span>
+          </div>
+
+          <div class="course-row">
+            <span>Introduction to Computing</span>
+            <span>3</span>
+            <span>11.01</span>
+            <span>A-</span>
+          </div>
+        </div>
+
+        <div class="term-row" onclick="toggleTerm(this)">
+          <span>▼ Spring 2025</span>
+          <span>56.01</span>
+          <span>107.35</span>
+          <span>15</span>
+          <span>15</span>
+          <span>30</span>
+          <span>3.73</span>
+          <span>3.58</span>
+        </div>
+
+        <!-- FALL DETAILS -->
+        <div class="term-details">
+          <div class="course-head">
+            <span>Course</span>
+            <span>Credit Hours</span>
+            <span>Grade Pts</span>
+            <span>Final Grade</span>
+          </div>
+
+          <div class="course-row">
+            <span>Digital Logic and Design - Lab</span>
+            <span>1</span>
+            <span>3.67</span>
+            <span>A-</span>
+          </div>
+
+          <div class="course-row">
+            <span>Civics and Community Engagement</span>
+            <span>2</span>
+            <span>7.34</span>
+            <span>A-</span>
+          </div>
+
+          <div class="course-row">
+            <span>Programming Fundamentals - Lab</span>
+            <span>1</span>
+            <span>4</span>
+            <span>A</span>
+          </div>
+
+          <div class="course-row">
+            <span>Programming Fundamentals </span>
+            <span>3</span>
+            <span>12</span>
+            <span>A</span>
+          </div>
+
+          <div class="course-row">
+            <span>Expository Writing</span>
+            <span>3</span>
+            <span>9</span>
+            <span>B</span>
+          </div>
+
+          <div class="course-row">
+            <span>Calculus and Analytical Geometry</span>
+            <span>3</span>
+            <span>12</span>
+            <span>A</span>
+          </div>
+
+          <div class="course-row">
+            <span>Digital Logic and Design</span>
+            <span>2</span>
+            <span>8</span>
+            <span>A</span>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+    <script src="Project.js"></script>
+  </body>
+</html>
