@@ -251,7 +251,7 @@ body{
 
 }
 .subject {
-    font-size: 50px;
+    font-size: 24px;
     color: #444;
     padding-left: 5px;
 }
@@ -260,7 +260,7 @@ body{
     margin-top: 8px;
     font-weight: 600;
     padding-left: 5px;
-     font-size: 20px;
+     font-size: 18px;
 }
 
 .qualification, .code, .room, .type {
