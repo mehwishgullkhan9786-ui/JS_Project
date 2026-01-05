@@ -1,4 +1,4 @@
-/* ================= GLOBAL ================= */
+
 *{
   box-sizing:border-box;
   margin:0;
@@ -251,7 +251,7 @@ body{
 
 }
 .subject {
-    font-size: 24px;
+    font-size: 22px;
     color: #aaa;
     padding-left: 5px;
 }
@@ -260,7 +260,7 @@ body{
     margin-top: 8px;
     font-weight: 600;
     padding-left: 5px;
-     font-size: 18px;
+     font-size: 16px;
 }
 
 .qualification, .code, .room, .type {
